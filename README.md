@@ -9,3 +9,22 @@ So one can define pillars for users to be present as for users to be absent (exa
 
 There needs to be a *groups.sls* state and pillar as shown at the mentioned gist.
 I may provide that in an extra repository as well.
+
+## Examples
+
+Remember that no group state or group pillar is included but can easily be adopted from the gist above.
+
+states / top.sls
+
+    base:
+    '*':
+      - users
+      - groups
+
+pillars / top.sls
+
+    base:
+    '*':
+      - groups
+      - users
+
