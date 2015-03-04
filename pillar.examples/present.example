@@ -1,0 +1,13 @@
+users.present:
+  user1:
+    fullname: Test User1
+    uid: 5000
+    gid: 5000
+    shell: /bin/bash
+    home: /home/user1
+    groups:
+      - admin
+    password: $6$SALTsalt$bj2Fv1EwmHFE/e155ZKA3vK2XagMF5NSCMoQ.kPW0LyJ7utpKAOQ0OImk3Sl5Byr01G9U.tnKg8rAz5lltSbo/ 
+    enforce_password: True
+    key.pub: False
+
